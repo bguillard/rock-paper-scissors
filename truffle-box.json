@@ -1,3 +1,4 @@
+{
 "ignore": [
   "README.md",
   ".gitignore"
@@ -9,4 +10,5 @@
 }
 "hooks": {
   "post-unpack": "npm install"
+}
 }
