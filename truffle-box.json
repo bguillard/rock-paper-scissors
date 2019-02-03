@@ -2,12 +2,12 @@
 "ignore": [
   "README.md",
   ".gitignore"
-]
+],
 "commands": {
   "Compile": "truffle compile",
   "Migrate": "truffle migrate",
   "Run local webserver": "npm run dev",
-}
+},
 "hooks": {
   "post-unpack": "npm install"
 }
