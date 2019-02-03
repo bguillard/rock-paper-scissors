@@ -6,7 +6,8 @@
 "commands": {
   "Compile": "truffle compile",
   "Migrate": "truffle migrate",
-  "Run local webserver": "npm run dev"
+  "Run local webserver": "npm run dev",
+  "Deploy on rinkeby": "add you mnemonic to a .secret file, then truffle migrate -f 2 --network rinkeby"
 },
 "hooks": {
   "post-unpack": "npm install"
